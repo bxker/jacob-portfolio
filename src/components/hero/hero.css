@@ -25,6 +25,16 @@
   font-size: 1.5rem;
 }
 
+#picture-mail-section{
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+#my-photo-jacob {
+  max-width: 300px;
+}
+
 @media (max-width: 550px) {
   .jumbo {
     height: 36rem;
@@ -48,3 +58,5 @@
     font-size: 1.25rem;
   }
 }
+
+
