@@ -11,15 +11,15 @@ const Hero = () => (
       <h1>Hey, I'm Jacob. I'm a Web developer from Kentucky, currently residing in Dallas.</h1>
       <br />
       <h3>
-        Right now I'm using Javascript, Node.js, React.js and Gatsby.js to
-        design and hack noice websites together on the internet.
+        Right now I'm using Javascript, Node.js, React.js and PostgreSQL to
+        build cool things on the internet.
       </h3>
       <section id="picture-mail-section">
-        <p>
+        <p className="social-hero">
         <div>
           <SocialRow />
         </div>
-          Let's chat{" "}
+            Let's chat{" "}
           <a href="mailto:hello@jacob.digital">
             <span style={{ color: "green" }}>hello@jacob.digital</span>
           </a>

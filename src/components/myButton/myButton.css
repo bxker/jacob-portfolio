@@ -1,13 +1,16 @@
 .button_styles {
-  border-style: solid;
+  /* border-style: solid; */
   padding: 3px;
-  border-radius: 1rem;
-  margin-bottom: 3px;
-  color: blueviolet;
+  border-radius: 10px; 
+  margin-bottom: 3px; 
+  color: green;
 }
 
 .button_styles:hover {
-  color: black;
+  color: green;
+  background: white;
+  border-style: solid;
+  border-color: green;
 }
 
 @media (max-width: 550px) {

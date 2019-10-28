@@ -8,8 +8,8 @@ export default () => (
     <Col>
       <a
         style={{ color: "#000" }}
-        href="https://www.github.com/"
-        target="_blank"
+        href="https://www.github.com/bxker"
+        target="__blank"
         rel="noopener noreferrer"
       >
         <i className="fab fa-github hover_effect" />
@@ -18,7 +18,7 @@ export default () => (
     <Col>
       <a
         style={{ color: "#000" }}
-        href="https://www.linkedin.com/"
+        href="https://www.linkedin.com/in/bxker"
         target="_blank"
         rel="noopener noreferrer"
       >

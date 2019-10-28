@@ -40,10 +40,11 @@ a:hover {
 }
 
 .button_styles {
-  border-style: solid;
+  background: green;
+  color: white;
   padding: 3px;
-  border-radius: 1rem;
-}
+  border-radius: 10px; 
+}  
 
 @media (max-width: 550px) {
   .project_container {

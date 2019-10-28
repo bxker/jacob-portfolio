@@ -27,10 +27,10 @@ const projectProject = {
 //Project 1
 
 const project1 = {
-  title: "Cool React app",
-  date: "2019-03-28",
+  title: "Trakd: Calorie Tracker",
+  date: "Completed: 11-01-2019",
   decription:
-    "Lorem ipsum dolor sit amet consectetur adipisicing elit. Officia quaerat enim amet voluptatum, aut quisquam a, veritatis dolores odit adipisci corrupti tenetur optio. Aliquam incidunt dolor laborum tempore officia obcaecati.",
+    "Full-stack group project completed in two weeks. Technologies used to build the project: React.js, React-redux, Node.js, Express.js, Bcrypt.js, PostgreSQL, Edamam API, ChartJS, Material UI, SASS, Nodemailer, and Cloudinary. Participated in daily standups, assigned daily tasks to group members via Trello, and collaborated with group members to complete features effectively.",
   sourceURL: "https://github.com",
   hostedURL: "http://www.google.com",
 }
@@ -83,7 +83,7 @@ export default () => (
         <Row>
           <Col>
             <ProjectCard
-              imageSrcPath={project1Picture}
+              imageSrcPath={'https://i.imgur.com/ix49OYs.png'}
               title={project1.title}
               date={project1.date}
               description={project1.decription}
@@ -95,7 +95,7 @@ export default () => (
         <Row>
           <Col>
             <ProjectCard
-              imageSrcPath={project2Picture}
+              imageSrcPath={'https://i.imgur.com/yTWfPdR.png'}
               title={project2.title}
               date={project2.date}
               description={project2.decription}

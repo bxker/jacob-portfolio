@@ -30,7 +30,7 @@ a:link {
 }
 
 .hover_effect:hover {
-  color: blueviolet;
+  color: green;
 }
 
 .link_styles {
@@ -42,7 +42,7 @@ a:link {
 }
 
 .blueViolet {
-  color: blueviolet;
+  color: green;
 }
 
 .blueViolet:hover {
@@ -52,5 +52,11 @@ a:link {
 @media (max-width: 550px) {
   .jumbo_social i {
     font-size: 1.4rem;
+  }
+}
+
+@media (min-width: 576px){
+  .jumbotron {
+    padding: 0px;
   }
 }

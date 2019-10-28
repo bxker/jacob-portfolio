@@ -46,6 +46,8 @@ const footer_styles = {
   color: "#fff",
   paddingBottom: "0",
   width: "100%",
+  padding: '0px',
+  margin: '0px'
 }
 
 export default Footer
