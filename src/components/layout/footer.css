@@ -1,10 +1,18 @@
 a {
   text-decoration: none;
-  color: "#fff";
+  color: "black";
+}
+
+.footer_social_container {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  color: black;
 }
 
 .footer_social {
-  color: #fff;
+  color: black;
 }
 
 .footer_social {
@@ -14,7 +22,7 @@ a {
 
 .footer_social i {
   font-size: 2rem;
-  color: #fff;
+  color: black;
 }
 
 a:link {
